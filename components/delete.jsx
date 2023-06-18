@@ -5,7 +5,7 @@ function Delete({ deleteValue, onDelete = () => { } }) {
     return (
         <span
             onClick={() => onDelete(deleteValue)}
-            className="cursor-pointer bg-red-400 rounded-lg px-3 py-2 "
+            className="cursor-pointer bg-red-500 rounded-lg px-3 py-2 "
         >
             <AiFillDelete size={20}/>
         </span>
